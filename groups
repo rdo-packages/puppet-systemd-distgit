@@ -1,3 +1,5 @@
-# UUID                                  	Group Name
-#
-b5806ada497a4959fb6006fd1ed189a686f2e4f3	puppet/puppet-systemd-distgit-ptl
+# UUID          Group Name
+False 	Non-Interactive Users
+d1d6d3b66dc597cd19d9b26a8080cb8418a83d64       	puppet/puppet-systemd-distgit-core
+b5806ada497a4959fb6006fd1ed189a686f2e4f3        	puppet/puppet-systemd-distgit-ptl
+global:Registered-Users		Registered Users
