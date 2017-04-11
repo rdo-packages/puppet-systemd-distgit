@@ -16,6 +16,46 @@
       "revId": "526c3d0ee4b48d56096ffe007e034f187308a3dc",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa98f980_faab0bd4",
+        "filename": "puppet-systemd.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 127
+      },
+      "writtenOn": "2017-04-11T12:27:14Z",
+      "side": 1,
+      "message": "wrong bump as no tag exists upstream (latest is 0.4.0 tag)",
+      "revId": "526c3d0ee4b48d56096ffe007e034f187308a3dc",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa98f980_1ab9af2e",
+        "filename": "puppet-systemd.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 127
+      },
+      "writtenOn": "2017-04-11T12:27:14Z",
+      "side": 1,
+      "message": "this should probably be 0.4.0-2.70c418git as VR to be consistent",
+      "range": {
+        "startLine": 51,
+        "startChar": 58,
+        "endLine": 51,
+        "endChar": 75
+      },
+      "revId": "526c3d0ee4b48d56096ffe007e034f187308a3dc",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
