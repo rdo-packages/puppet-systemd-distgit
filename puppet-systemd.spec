@@ -5,7 +5,7 @@
 %global alphatag .%{shortcommit}git
 
 Name:                   puppet-systemd
-Version:                2.6.0
+Version:                2.10.0
 Release:                1%{?alphatag}%{?dist}
 Summary:                Puppet Systemd module
 License:                Apache-2.0
@@ -46,6 +46,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/systemd/
 
 
 %changelog
+* Mon Mar 22 2021 RDO <dev@lists.rdoproject.org> 2.10.0-1.f0ce6f0git
+- Update to 2.10.0
+
 * Thu Oct 3 2019 RDO <dev@lists.rdoproject.org> 2.6.0-1.f0ce6f0git
 - Update to post 2.6.0 (f0ce6f04aa89c002cd9ba721c6f5d91177f32afc)
 
