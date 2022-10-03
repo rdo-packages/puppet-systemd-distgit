@@ -1,8 +1,9 @@
+%global milestone .0rc0
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 Name:                   puppet-systemd
-Version:                XXX
-Release:                XXX
+Version:        3.10.1
+Release:        0.1%{?milestone}%{?alphatag}%{?dist}
 Summary:                Puppet Systemd module
 License:                Apache-2.0
 
@@ -42,5 +43,8 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/systemd/
 
 
 %changelog
+* Mon Oct 03 2022 RDO <dev@lists.rdoproject.org> 3.10.1-0.1.0rc0.ae5dfe5git
+- Update to post 3.10.1 (ae5dfe59ed14b814011b18959bdf526b49577d39)
+
 
 
