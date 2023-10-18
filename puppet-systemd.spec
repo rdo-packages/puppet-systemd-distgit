@@ -1,14 +1,19 @@
-%{!?upstream_version: %global upstream_version %{version}%{?milestone}}
+%global milestone .0rc0
+%{!?upstream_version: %global upstream_version %{commit}}
+%global commit e5ae64c0aa2dfa4fa94140e6867c4dcc846e29f1
+%global shortcommit %(c=%{commit}; echo ${c:0:7})
+# DO NOT REMOVE ALPHATAG
+%global alphatag .%{shortcommit}git
 
 Name:                   puppet-systemd
-Version:                XXX
-Release:                XXX
+Version:                6.0.1
+Release:                0.1%{?milestone}%{?alphatag}%{?dist}
 Summary:                Puppet Systemd module
 License:                Apache-2.0
 
-URL:                    https://github.com/camptocamp/puppet-systemd
+URL:                    https://github.com/voxpupuli/puppet-systemd
 
-Source0:                https://github.com/camptocamp/puppet-systemd/archive/%{version}.tar.gz
+Source0:                https://github.com/voxpupuli/puppet-systemd/archive/%{commit}.tar.gz#/%{name}-%{shortcommit}.tar.gz
 
 BuildArch:              noarch
 
@@ -42,5 +47,8 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/systemd/
 
 
 %changelog
+* Wed Oct 18 2023 RDO <dev@lists.rdoproject.org> 6.0.1-0.1.0rc0.e5ae64cgit
+- Update to post 6.0.1-rc0 (e5ae64c0aa2dfa4fa94140e6867c4dcc846e29f1)
+
 
 
