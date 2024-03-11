@@ -1,14 +1,14 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 Name:                   puppet-systemd
-Version:                XXX
+Version:                6.6.0
 Release:                XXX
 Summary:                Puppet Systemd module
 License:                Apache-2.0
 
 URL:                    https://github.com/camptocamp/puppet-systemd
 
-Source0:                https://github.com/camptocamp/puppet-systemd/archive/%{version}.tar.gz
+Source0:                https://github.com/camptocamp/puppet-systemd/archive/v%{version}.tar.gz
 
 BuildArch:              noarch
 
