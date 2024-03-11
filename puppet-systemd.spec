@@ -8,7 +8,7 @@ License:                Apache-2.0
 
 URL:                    https://github.com/camptocamp/puppet-systemd
 
-Source0:                https://github.com/camptocamp/puppet-systemd/archive/%{version}.tar.gz
+Source0:                https://github.com/camptocamp/puppet-systemd/archive/v%{version}.tar.gz
 
 BuildArch:              noarch
 
