@@ -22,6 +22,30 @@
       },
       "revId": "403552fde6edd4865f8d0ab6fb5ee5c95bb68704",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "faa6a460_f413e92e",
+        "filename": "puppet-systemd.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2024-03-12T09:05:47Z",
+      "side": 1,
+      "message": "Good catch, I was testing the tarball downloaded with spectool",
+      "parentUuid": "242e9c37_e2dfb5ab",
+      "range": {
+        "startLine": 4,
+        "startChar": 24,
+        "endLine": 4,
+        "endChar": 29
+      },
+      "revId": "403552fde6edd4865f8d0ab6fb5ee5c95bb68704",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
