@@ -6,9 +6,9 @@ Release:                XXX
 Summary:                Puppet Systemd module
 License:                Apache-2.0
 
-URL:                    https://github.com/camptocamp/puppet-systemd
+URL:                    https://github.com/voxpupuli/puppet-systemd
 
-Source0:                https://github.com/camptocamp/puppet-systemd/archive/v%{version}.tar.gz
+Source0:                https://github.com/voxpupuli/puppet-systemd/archive/v%{version}.tar.gz
 
 BuildArch:              noarch
 
