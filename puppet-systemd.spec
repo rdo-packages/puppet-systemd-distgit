@@ -1,8 +1,8 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 Name:                   puppet-systemd
-Version:                XXX
-Release:                XXX
+Version:        8.1.0
+Release:        %{?dist}
 Summary:                Puppet Systemd module
 License:                Apache-2.0
 
@@ -42,5 +42,8 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/systemd/
 
 
 %changelog
+* Tue Mar 18 2025 RDO <dev@lists.rdoproject.org> 8.1.0-
+- Update to 8.1.0
+
 
 
